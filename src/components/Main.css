@@ -1,0 +1,99 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main a:hover {opacity: .8;}
+
+.main p {
+    color: rgb(54, 53, 53)
+}
+
+.main span {
+    font-weight: bold;
+}
+
+.main .introduction {
+    margin: 50px 0 20px 0;
+    padding: 0 15px;
+    width: 79%;
+}
+
+.main .introduction h2, 
+.main .content .card h2, 
+.main .content-footer h2 {
+    color: #DE8E85;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main .introduction p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.main .content {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.main .content .cards {
+    width: 50%;
+    margin: 0 15px
+}
+
+.main .content .card {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    border: 0;
+    margin: 10px 10px 20px 10px;
+    padding: 15px 10px;
+}
+
+.main .content .card p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.main .content .know {
+    margin: 10px;
+    width: 50%;
+}
+
+.main .content .know h2 {
+    background-color: #DE8E85;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.main .content .know a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.main .content img {
+    width: 100%;
+    height: 660px;
+}
+
+.main .content-footer {
+    width: 77%;
+    background-color: #fff;
+    padding: 15px 10px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+

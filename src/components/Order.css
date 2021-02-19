@@ -1,0 +1,16 @@
+.order {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-top: -20px;
+}
+
+.order a {
+    padding: 10px 40px;
+    background-color: #fff;
+    color: #aaa9a9;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    margin: 0 10px;
+}
